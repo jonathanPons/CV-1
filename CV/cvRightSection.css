@@ -1,0 +1,23 @@
+.XP {
+  width: 50%;
+  gap: 100px;
+  padding: 15px;
+}
+.XP div img {
+  width: 30px;
+  object-fit: contain;
+
+  gap: 10px;
+}
+
+a > img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.XP > Section > div {
+  margin-bottom: 10px;
+}

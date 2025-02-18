@@ -1,0 +1,98 @@
+body {
+  margin: 20px 200px 0px;
+  height: 100vh;
+
+  font-family: "Space Mono", serif;
+}
+.main {
+  display: flex;
+
+  justify-content: space-between;
+}
+header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 200px;
+  border-radius: 20px;
+}
+h1 {
+  font-weight: 700;
+  font-style: bold;
+  color: #1515af;
+  font-size: 50px;
+}
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 30px;
+}
+h3 {
+  font-weight: 400;
+  font-style: normal;
+  color: #1515af;
+}
+main {
+  display: flex;
+}
+
+@media (max-width: 1036px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    margin: 10px 10px;
+    display: flex;
+
+    font-size: 20px;
+  }
+  header > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main > .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .XP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact div {
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
